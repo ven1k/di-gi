@@ -363,7 +363,6 @@ body {
     margin: 78.53px auto 0;
     width: 64px;
     height: 64px;
-    background-image: url("../images/service_img1.png");
     background-size: 100% 100%;
     transition: all 2s;
 }
@@ -907,7 +906,6 @@ body {
 .quotesBlock {
     height: 500px;
     background: var(--white);
-    position: relative;
 }
 
 .quotesImg {
@@ -969,10 +967,21 @@ body {
     cursor: pointer;
 }
 
+
+/* End block number 8 - quotes */
+
+/* Start block number 9 - Feedback (footer) */
+
+.feedback {
+    position: relative;
+    height: 639px;
+    background-color: var(--cobalt);
+}
+
 .secondCiteLogo {
     position: absolute;
     left: calc(50% - 115px);
-    top: 100%;
+    top: -30px;
     margin: 0;
     padding: 0;
     width: 230px;
@@ -983,15 +992,6 @@ body {
     background-position: center;
     background-size: 83px 55px;
     border-radius: 3px;
-}
-
-/* End block number 8 - quotes */
-
-/* Start block number 9 - Feedback (footer) */
-
-.feedback {
-    height: 639px;
-    background-color: var(--cobalt);
 }
 
 .feedbackH2 {

@@ -710,9 +710,9 @@ body {
 
 .newsAllButton {
     display: block;
-    width: 230px;
+    width: 250px;
     height: 32px;
-    padding: 8px 20px 0;
+    padding: 8px 10px 0;
     background-color: var(--white);
     font-family: Roboto Condensed, sans-serif;
     font-style: normal;
@@ -741,7 +741,7 @@ body {
 }
 
 .newsAllBlocks:hover .newsAllButton {
-    width: 230px;
+    width: 250px;
     margin-top: 90px;
     padding-left: 0;
     background-color: var(--cobalt);

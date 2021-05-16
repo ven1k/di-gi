@@ -1,3 +1,62 @@
+@media screen and (max-width: 1230px) {
+    /* Block number 5 - projects  1230 */
+    .projects {
+        height: 980px;
+    }
+
+    .projectsImages {
+        max-width: 770px;
+    }
+
+    .projectsBlocks {
+        height: 404px;
+    }
+
+    .projectsBlockName {
+        padding-bottom: 60px;
+    }
+
+    /* Block number 5 - projects  1230 */
+}
+
+@media screen and (max-width: 1110px) {
+    /* Block number 6 - team 1110 */
+    .team {
+        padding-top: 80px;
+        padding-left: 46px;
+        height: 540px;
+    }
+
+    .teamPhoto {
+        width: 395px;
+        height: 380px;
+    }
+
+    .teamInfo {
+        padding-left: 10px;
+    }
+
+    .teamInfo p {
+        margin-top: 25px;
+    }
+
+    .buttonWatchVideo {
+        margin-top: 23px;
+    }
+
+    /* Block number 6 - team 1110 */
+    /* Block number 7 - lastNews  1110*/
+    .lastNews {
+        height: 1344px;
+    }
+
+    .flexNews {
+        height: 1120px;
+    }
+
+    /* Block number 7 - lastNews  1110*/
+}
+
 @media screen and (max-width: 1024px) {
     /* block number 1 - header  1024*/
     .headButton {
@@ -7,12 +66,13 @@
     .logo {
         margin: 17px 0 0 46px;
     }
-    /* block number 1 - header 1024 */
 
+    /* block number 1 - header 1024 */
     /* block number 2 - intro 1024 */
     .intro {
         height: 623px;
     }
+
     .title1 {
         padding-top: 101px;
     }
@@ -23,7 +83,7 @@
     }
 
     .title2 {
-        width: 587px;
+        max-width: 587px;
         height: 60px;
         font-size: 18px;
         line-height: 20px;
@@ -37,7 +97,7 @@
         margin: 112px auto 0;
     }
 
-    .navigatorBar{
+    .navigatorBar {
         right: 0;
         top: 253px;
         width: 56px;
@@ -62,23 +122,26 @@
     .button2Symbol {
         top: 74px;
     }
-    /* block number 2 - intro 1024 */
 
+    /* block number 2 - intro 1024 */
     /* block number 3 - call me 1024*/
     .callMe {
         height: 160px;
     }
+
     .shortInfo {
         margin: 40px 0 0 46px;
     }
+
     .shortInfo h2 {
         font-weight: 500;
         font-size: 18px;
         line-height: 18px;
     }
+
     .shortInfo p {
         margin-top: 10px;
-        width: 430px;
+        max-width: 430px;
         font-size: 14px;
         line-height: 16px;
     }
@@ -86,8 +149,8 @@
     .buttonCallMe {
         margin: 55px 43px 0 0;
     }
-    /*  block number 3 - call me 1024*/
 
+    /*  block number 3 - call me 1024*/
     /*  block number 4 - services 1024 */
     .services {
         height: 912px;
@@ -118,15 +181,117 @@
     }
 
     .firstServicesBlock p {
-        width: 608px;
+        max-width: 608px;
         height: 55px;
     }
+
     .secondServicesBlock {
-       width: 1024px;
+        margin-top: 10px;
+        max-width: 1024px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
+
+    /*  block number 4 - services 1024 */
+    .decorativeBlock2 {
+        margin: 24px auto 0;
+    }
+
+    .decBlockNews {
+        margin: 19px auto 0;
+    }
+
+    /* Block number 8 - quotes 1024 */
+    .qoutes {
+        max-width: 800px;
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+    .quotesBlock address {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    /* Block number 8 - quotes 1024 */
+    /* Block number 9 - Feedback (footer) 1024 */
+    .feedback {
+        height: 632px;
+        background-color: #2B4074;
+    }
+
+    .feedbackH2 {
+        padding-left: 43px;
+        width: 751px;
+        height: 60px;
+        font-size: 36px;
+        line-height: 32px;
+    }
+
+    .feedbackInfo {
+        max-width: 1024px;
+    }
+
+    .feedbackInfoH2 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .feedbackInfoContact {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    /* Block number 9 - Feedback (footer) 1024 */
+}
+
+@media screen and (max-width: 860px) {
+    /* Block number 7 - lastNews  860*/
+    .lastNews h2 {
+        font-size: 36px;
+        line-height: 38px;
+    }
+
+    .flexNews {
+        margin-top: 80px;
+    }
+
+    .lastNews {
+        height: 1745px;
+    }
+
+    .flexNews {
+        height: 1520px;
+    }
+
+    /* Block number 7 - lastNews  860*/
+    /* Block number 8 - quotes 860 */
+    .quotesBlock {
+        height: 440px;
+    }
+
+    .quotesImg {
+        margin-top: 60px;
+    }
+
+    .qoutes {
+        max-width: 520px;
+        height: auto;
+        line-height: 34px;
+    }
+
+    .quotesBlock address {
+        margin-top: 40px;
+        line-height: 23px;
+    }
+
+    .quotesAllMarkers {
+        margin-top: 40px;
+    }
+
+    /* Block number 8 - quotes 860 */
+
 }
 
 @media screen and (max-width: 768px) {
@@ -134,6 +299,7 @@
     .intro {
         height: 465px;
     }
+
     .title1 {
         padding-top: 87px;
     }
@@ -144,7 +310,7 @@
     }
 
     .title2 {
-        width: 587px;
+        max-width: 587px;
         height: 38px;
         font-size: 18px;
         line-height: 20px;
@@ -158,7 +324,7 @@
         margin: 50px auto 0;
     }
 
-    .navigatorBar{
+    .navigatorBar {
         right: 0;
         top: 176px;
         width: 56px;
@@ -183,23 +349,26 @@
     .button2Symbol {
         top: 74px;
     }
-    /* block number 2 - intro 768 */
 
+    /* block number 2 - intro 768 */
     /* block number 3 - call me 768 */
     .callMe {
         height: 187px;
     }
+
     .shortInfo {
         margin: 60px 0 0 46px;
     }
+
     .shortInfo h2 {
         font-weight: 500;
         font-size: 24px;
         line-height: 24px;
     }
+
     .shortInfo p {
         margin-top: 10px;
-        width: 425px;
+        max-width: 425px;
         font-size: 16px;
         line-height: 18px;
     }
@@ -207,14 +376,143 @@
     .buttonCallMe {
         margin: 69px 42px 0 0;
     }
+
     /*  block number 3 - call me 768 */
+    /*  block number 4 - services 768 */
+    .services {
+        height: 1450px;
+        max-width: 768px;
+    }
+
+    .firstServicesBlock {
+        max-width: 768px;
+    }
+
+    .firstServicesBlock h2 {
+        margin: 50px auto 0;
+        text-align: center;
+    }
+
+    .firstServicesBlock h3 {
+        margin: 30px 0 0 0;
+        max-width: 611px;
+        height: 30px;
+        line-height: 24px;
+    }
+
+    .decorativeBlock {
+        margin: 32px 0 0 0;
+    }
+
+    .firstServicesBlock p {
+        margin-top: 31px;
+        max-width: 608px;
+        height: 55px;
+    }
+
+    .secondServicesBlock {
+        margin-top: 27px;
+        max-width: 768px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .myFlexBoxs {
+        width: 49.8%;
+    }
+
+    .myFlexBoxs:hover {
+        width: calc(49.8% - 8px);
+        height: 262.53px;
+        border: 4px solid #2B4074;
+    }
+
+    /*  block number 4 - services 768 */
+    .decorativeBlock2 {
+        margin: 24px auto 0;
+    }
+
+    /* Block number 6 - team 768 */
+    .team {
+        padding-top: 40px;
+        padding-left: 36px;
+        height: 480px;
+    }
+
+    .teamPhoto {
+        width: 240px;
+        height: 227px;
+    }
+
+    .teamInfo h2 {
+        font-size: 36px;
+        line-height: 38px;
+    }
+
+    .decorativeBlockNews {
+        width: 90px;
+        margin-top: 20px;
+    }
+
+    .teamInfo p {
+        margin-top: 7px;
+        max-width: 407px;
+        height: 235px;
+        font-size: 18px;
+    }
+
+    .buttonWatchVideo {
+        position: absolute;
+        top: 400px;
+        left: calc(50% - 115px); /* 115 px - half width button*/
+    }
+
+    /* Block number 6 - team 768 */
+    .decBlockNews {
+        margin: 19px auto 0;
+    }
+
+    .lastNews h2 {
+        font-size: 48px;
+        line-height: 38px;
+    }
+
+    /* Block number 9 - Feedback (footer) 768 */
+    .feedback {
+        height: 632px;
+        background-color: #2B4074;
+    }
+
+    .feedbackH2 {
+        padding-top: 110px;
+        width: 90%;
+    }
+
+    .ourSocialNetworks {
+        margin: 40px auto 0;
+    }
+
+    .feedbackInfo {
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+
+    .eachfeedbackInfo {
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    /* Block number 9 - Feedback (footer) 768 */
 }
+
 
 @media screen and (max-width: 640px) {
     /* block number 2 - intro 640 */
     .intro {
         height: 386px;
     }
+
     .title1 {
         padding-top: 50px;
     }
@@ -222,7 +520,7 @@
     .title2 {
         margin-top: 7px;
         padding: 0;
-        width: 61.05px;
+        max-width: 61.05px;
         height: 8px;
         text-indent: 100%;
         white-space: nowrap;
@@ -238,12 +536,12 @@
         margin: 53px auto 0;
     }
 
-    .navigatorBar{
+    .navigatorBar {
         right: 0;
         top: 137px;
     }
-    /* block number 2 - intro  640 */
 
+    /* block number 2 - intro  640 */
     /* block number 3 - call me 640 */
     .flexCallMe {
         flex-direction: column;
@@ -252,6 +550,7 @@
     .callMe {
         height: 254px;
     }
+
     .shortInfo {
         margin: 40px auto 0;
     }
@@ -262,14 +561,511 @@
 
     .shortInfo p {
         margin: 10px auto 0;
-        width: 530px;
+        max-width: 530px;
         text-align: center;
     }
 
     .buttonCallMe {
-        margin: 40px auto 0;
+        margin: 25px auto 0;
     }
+
     /*  block number 3 - call me 640 */
+    /*  block number 4 - services 640 */
+    .firstServicesBlock {
+        padding-left: 0;
+    }
+
+    .services {
+        height: 1450px;
+        max-width: 640px;
+    }
+
+    .firstServicesBlock {
+        max-width: 640px;
+    }
+
+    .firstServicesBlock h2 {
+        margin: 50px auto 0;
+        text-align: center;
+    }
+
+    .firstServicesBlock h3 {
+        margin: 30px auto 0;
+        max-width: 559px;
+        height: 30px;
+        text-align: center;
+    }
+
+    .decorativeBlock {
+        margin: 32px auto 0;
+    }
+
+    .firstServicesBlock p {
+        margin-top: 31px;
+        max-width: 608px;
+        height: 55px;
+        text-align: center;
+    }
+
+    .secondServicesBlock {
+        margin-top: 27px;
+        max-width: 768px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .myFlexBoxs {
+        width: 49.8%;
+    }
+
+    .myFlexBoxs:hover {
+        width: calc(49.8% - 8px);
+        height: 262.53px;
+        border: 4px solid #2B4074;
+    }
+
+    /*  block number 4 - services 640 */
+    /* Block number 5 - projects  640 */
+    .projects {
+        height: 2290px;
+    }
+
+
+    .projectsBlocks {
+        margin: 0 auto;
+        width: 440px;
+        height: 490px;
+    }
+
+    .projectsBlockName {
+        padding-bottom: 30px;
+    }
+
+    .allImagesProjeckts {
+        height: 478px;
+        border-radius: 12px;
+        background-size: 100% 100%;
+    }
+
+    .projectsBlockName {
+        max-width: 640px;
+    }
+
+    .projectsImages {
+        max-width: 640px;
+        flex-direction: column;
+    }
+
+    .hiddenProjecktImg {
+        margin: 23px auto;
+        padding-top: 160px;
+        width: 360px;
+        height: 205px;
+        border-radius: 12px;
+    }
+
+    .infoButton {
+        margin-left: 144px;
+        width: 27.98px;
+        height: 27.58px;
+        border-radius: 55px;
+        border: 2px solid #2B4074;
+        cursor: pointer;
+    }
+
+    /* Block number 5 - projects  640 */
+    /* Block number 6 - team 640 */
+    .team {
+        padding-top: 45px;
+        padding-left: 0;
+        height: 910px;
+    }
+
+    .flexTeam {
+        flex-direction: column;
+    }
+
+    .teamPhoto {
+        width: 80%;
+        height: 478px;
+        margin: 0 auto;
+    }
+
+    .teamInfo h2 {
+        margin: 45px auto 0;
+        width: 132px;
+    }
+
+    .decorativeBlockNews {
+        width: 90px;
+        margin-top: 20px;
+    }
+
+    .teamInfo p {
+        margin: 40px auto 0;
+        max-width: 418px;
+        height: 160px;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    .buttonWatchVideo {
+        position: absolute;
+        top: 830px;
+        left: calc(50% - 115px); /* 115 px - half width button*/
+    }
+
+    /* Block number 6 - team 640 */
+    .infoButtonForNewsBlocks {
+        margin: 0 auto 0;
+    }
+
+    /* Block number 8 - quotes 640 */
+    .qoutes {
+        max-width: 440px;
+    }
+
+    /* Block number 8 - quotes 640 */
+
+    /* Block number 9 - Feedback (footer) 640 */
+    .feedback {
+        height: 632px;
+        background-color: #2B4074;
+    }
+
+    .feedbackH2 {
+        padding-top: 85px;
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .allSocialBlocks {
+        width: 24%;
+    }
+
+    .feedbackInfo {
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+
+    .eachfeedbackInfo {
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    /* Block number 9 - Feedback (footer) 640 */
+}
+
+@media screen and (max-width: 590px) {
+    /* Block number 7 - lastNews  590*/
+    .flexNews {
+        margin: 30px auto 0;
+    }
+
+    .lastNews {
+        height: 2910px;
+    }
+
+    .flexNews {
+        height: 2780px;
+    }
+
+    /* Block number 7 - lastNews  590*/
+}
+
+@media screen and (max-width: 510px) {
+    /*  block number 4 - services 510 */
+    .services {
+        height: 2510px;
+        max-width: 640px;
+    }
+
+    .firstServicesBlock {
+        max-width: 640px;
+    }
+
+    .firstServicesBlock h2 {
+        margin: 50px auto 0;
+        text-align: center;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .firstServicesBlock h3 {
+        margin: 30px auto 0;
+        max-width: 559px;
+        height: 30px;
+        text-align: center;
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+    .decorativeBlock {
+        margin: 32px auto 0;
+    }
+
+    .firstServicesBlock p {
+        margin-top: 31px;
+        max-width: 608px;
+        height: 55px;
+        text-align: center;
+    }
+
+    .secondServicesBlock {
+        margin: 40px auto 0;
+        max-width: 768px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .myFlexBoxs {
+        margin: 0 auto 0;
+        width: 95%;
+        border-right: 1px solid #F9F6E5;
+    }
+
+    .myFlexBoxs:hover {
+        width: calc(95% - 8px);
+        height: 262.53px;
+        border: 4px solid var(--cobalt);
+    }
+
+    /*  block number 4 - services 510 */
+    /* Block number 6 - team 510 */
+    .team {
+        padding-top: 45px;
+        padding-left: 0;
+        height: 780px;
+    }
+
+    .teamPhoto {
+        height: 350px;
+    }
+
+    .buttonWatchVideo {
+        top: 710px;
+    }
+
+    /* Block number 6 - team 510 */
+    /* Block number 8 - quotes 510 */
+    .quotesBlock {
+        height: 440px;
+    }
+
+    .quotesImg {
+        margin-top: 60px;
+    }
+
+    .qoutes {
+        margin-top: 45px;
+        max-width: 80%;
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .quotesBlock address {
+        margin-top: 40px;
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .quotesAllMarkers {
+        margin-top: 40px;
+    }
+
+    /* Block number 8 - quotes 510 */
+
+}
+
+@media screen and (max-width: 495px) {
+    .title1 h1 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    /* Block number 5 - projects  495 */
+    .projectsTitle {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .decorativeBlock2 {
+        margin-top: 20px;
+        width: 50px;
+        height: 8px;
+    }
+
+    .projects {
+        height: 1484px;
+    }
+
+    .projectsImages {
+        margin-top: 40px;
+    }
+
+    .projectsBlocks {
+        margin: 0 auto;
+        width: 280px;
+        height: 310px;
+    }
+
+    .projectsBlockName {
+        padding-bottom: 20px;
+    }
+
+    .allImagesProjeckts {
+        height: 240px;
+        border-radius: 12px;
+        background-size: 100% 100%;
+    }
+
+    .hiddenProjecktImg {
+        margin: 20px auto;
+        padding-top: 85px;
+        width: 240px;
+        height: 115px;
+    }
+
+    .infoButton {
+        margin-left: 90px;
+    }
+
+    .projectsBlockName {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    /* Block number 5 - projects  495 */
+    .lastNews h2 {
+        width: 260px;
+        font-size: 24px;
+        line-height: 38px;
+    }
+
+    .decBlockNews {
+        margin: 5px auto 0;
+    }
+
+    .infoButtonForNewsBlocks {
+        margin: 0 auto 0;
+    }
+
+    /* Block number 9 - Feedback (footer) 495-320px */
+    .feedback {
+        height: 955px;
+    }
+
+    .feedbackH2 {
+        width: 80%;
+        padding-left: 0;
+        margin: 20px auto 0;
+        height: 84px;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .ourSocialNetworks {
+        margin: 30px auto 0;
+        padding: 0 20px 0;
+        max-width: 495px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allSocialBlocks {
+        border: none;
+        width: 100%;
+    }
+
+    .feedbackInfo {
+        margin-top: 10px;
+    }
+
+    .eachfeedbackInfo {
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    .feedbackInfoH2 {
+        margin: 24px 0 0;
+        text-align: center;
+    }
+
+    .feedbackInfoContact {
+        margin-top: 5px;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Block number 9 - Feedback (footer) 495-320px */
+
+    .upBlock{
+        height: 142px;
+    }
+    .flexUP {
+        justify-content: center;
+    }
+    .buttonUp {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .upText{
+        padding-top: 56px;
+        width: 100%;
+    }
+
+    .upSymbol {
+        margin: 23px auto;
+    }
+}
+
+@media screen and (max-width: 440px) {
+
+    .navigatorBar {
+        display: none;
+    }
+
+    /* Block number 6 - team 440 */
+    .team {
+        height: 800px;
+    }
+
+    .teamPhoto {
+        width: 280px;
+        height: 240px;
+    }
+
+    .teamInfo h2 {
+        width: 90px;
+        font-size: 24px;
+        line-height: 38px;
+    }
+
+    .decorativeBlockNews {
+        margin-top: 20px;
+        width: 45px;
+    }
+
+    .teamInfo p {
+        margin-top: 20px;
+        width: 80%;
+        height: 270px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .buttonWatchVideo {
+        top: 680px;
+    }
+
+    /* Block number 6 - team 440 */
 }
 
 @media screen and (max-width: 320px) {
@@ -277,35 +1073,30 @@
     .header {
         height: 80px;
     }
+
     .headButton {
         margin: 20px 20px;
     }
+
     .logo {
         margin: 7px 0 0 25px;
     }
-    /* block number 1 - header 320 */
 
+    /* block number 1 - header 320 */
     /* block number 2 - intro 320 */
     .intro {
         height: 193px;
     }
+
     .title1 {
         margin: 0 auto;
         padding-top: 36px;
         max-width: 188px;
-        height: 64px;
-    }
-
-    .title1 h1 {
-        font-size: 28px;
-        line-height: 28px;
+        height: 72px;
     }
 
     .title2 {
         margin: 7px auto 0;
-        padding-top: 8px;
-        width: 61.05px;
-        height: 15px;
     }
 
     .about_button {
@@ -316,15 +1107,12 @@
         margin: 35px auto 0;
     }
 
-    .navigatorBar{
-        display: none;
-    }
     /* block number 2 - intro  320 */
-
     /* block number 3 - call me 320 */
     .callMe {
         height: 301px;
     }
+
     .shortInfo {
         margin: 40px auto 0;
         width: 280px;
@@ -333,7 +1121,7 @@
 
     .shortInfo p {
         margin: 10px auto 0;
-        width: 250px;
+        max-width: 250px;
         height: 73px;
         text-align: center;
     }
@@ -341,5 +1129,7 @@
     .buttonCallMe {
         margin: 113px auto 0;
     }
+
     /*  block number 3 - call me 320 */
+
 }

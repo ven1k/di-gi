@@ -984,7 +984,7 @@ body {
 .allSocialBlocks {
     display: block;
     height: 55px;
-    width: 24%;
+    width: 25%;
     border: 1px solid var(--lightGreen);
     background-position: center;
     background-repeat: no-repeat;
